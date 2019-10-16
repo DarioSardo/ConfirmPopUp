@@ -717,20 +717,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dario\\.nuget\\packages\\": {}
+    "C:\\Users\\DARIOSardo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.iOS\\ConfirmPopUp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.iOS\\ConfirmPopUp.iOS.csproj",
       "projectName": "ConfirmPopUp.iOS",
-      "projectPath": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.iOS\\ConfirmPopUp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Dario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.iOS\\ConfirmPopUp.iOS.csproj",
+      "packagesPath": "C:\\Users\\DARIOSardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DARIOSardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -743,8 +743,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj": {
-              "projectPath": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj"
+            "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj": {
+              "projectPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj"
             }
           }
         }

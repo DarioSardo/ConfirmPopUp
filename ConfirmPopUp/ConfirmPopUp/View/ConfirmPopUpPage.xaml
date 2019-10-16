@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ConfirmPopUp.View.ConfirmPopUpPage">
+             x:Class="ConfirmPopUp.ConfirmPopUpPage">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="EntryStyle" TargetType="Entry">
@@ -16,7 +16,7 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout x:Name="StackLayoutContainer" HorizontalOptions="Center" VerticalOptions="FillAndExpand" Margin="20,0,20,10">
-                <Label x:Name="lblTitolo" Text="Confirm PopUp Page" TextColor="#777" HorizontalTextAlignment="Center"
+                <Label x:Name="lblTitolo" Text="{Binding Title}" TextColor="#777" HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center" FontSize="24" Margin="0,40,0,40" />
                 <Entry Placeholder="Name" />
                 <Entry Placeholder="Email" />

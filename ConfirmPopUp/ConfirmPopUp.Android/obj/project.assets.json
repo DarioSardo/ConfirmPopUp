@@ -645,11 +645,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -779,20 +781,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dario\\.nuget\\packages\\": {}
+    "C:\\Users\\DARIOSardo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
       "projectName": "ConfirmPopUp.Android",
-      "projectPath": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
-      "packagesPath": "C:\\Users\\Dario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\obj\\",
+      "projectPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
+      "packagesPath": "C:\\Users\\DARIOSardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DARIOSardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -805,8 +807,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj": {
-              "projectPath": "C:\\Users\\Dario\\source\\repos\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj"
+            "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj": {
+              "projectPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj"
             }
           }
         }

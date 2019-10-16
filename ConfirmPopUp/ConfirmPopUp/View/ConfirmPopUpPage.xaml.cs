@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ConfirmPopUp.View
+namespace ConfirmPopUp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ConfirmPopUpPage : ContentPage
@@ -15,6 +15,7 @@ namespace ConfirmPopUp.View
 		public ConfirmPopUpPage ()
 		{
 			InitializeComponent ();
+            BindingContext = new ConfirmPopUpViewModel();
 		}
 	}
 }
