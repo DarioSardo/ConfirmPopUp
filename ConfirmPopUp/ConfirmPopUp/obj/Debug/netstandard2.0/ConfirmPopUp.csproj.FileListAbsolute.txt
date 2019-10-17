@@ -15,11 +15,11 @@ C:\Users\Dario\source\repos\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\net
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\bin\Debug\netstandard2.0\ConfirmPopUp.deps.json
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\bin\Debug\netstandard2.0\ConfirmPopUp.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\bin\Debug\netstandard2.0\ConfirmPopUp.pdb
-C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\ConfirmPopUp.csprojAssemblyReference.cache
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\View\ConfirmPopUpPage.xaml.g.cs
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\View\PopUpOk.xaml.g.cs
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\ConfirmPopUp.csproj.CoreCompileInputs.cache
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\ConfirmPopUp.AssemblyInfoInputs.cache
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp\obj\Debug\netstandard2.0\ConfirmPopUp.AssemblyInfo.cs

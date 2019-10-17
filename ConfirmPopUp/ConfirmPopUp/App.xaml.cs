@@ -1,5 +1,4 @@
-﻿using ConfirmPopUp.View;
-using System;
+﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,7 +11,7 @@ namespace ConfirmPopUp
         {
             InitializeComponent();
 
-            MainPage = new ConfirmPopUpPage();
+            MainPage = new PopUpOk();
         }
 
         protected override void OnStart()

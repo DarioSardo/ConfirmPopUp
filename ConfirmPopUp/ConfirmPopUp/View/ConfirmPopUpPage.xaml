@@ -18,11 +18,10 @@
             <StackLayout x:Name="StackLayoutContainer" HorizontalOptions="Center" VerticalOptions="FillAndExpand" Margin="20,0,20,10">
                 <Label x:Name="lblTitolo" Text="{Binding Title}" TextColor="#777" HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center" FontSize="24" Margin="0,40,0,40" />
-                <Entry Placeholder="Name" />
-                <Entry Placeholder="Email" />
-                <Button Text="Confirm" HeightRequest="48" WidthRequest="250"  TextColor="White" 
-                        BorderRadius="25" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" BorderWidth="2" BackgroundColor="#e2071c" BorderColor="#e2071c" Margin="0,0,0,40" x:Name="BtnContinueToStep2" >
-                </Button>
+                <Entry Placeholder="Name" Text="{Binding Name,Mode=TwoWay}" />
+                <Entry Placeholder="Email" Text="{Binding Email,Mode=TwoWay}" />
+                <Button Text="Confirm" HeightRequest="48" WidthRequest="250"  TextColor="White" Command="{Binding AuthenticateCommand}"
+                        BorderRadius="25" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" BorderWidth="2" BackgroundColor="#e2071c" BorderColor="#e2071c" Margin="0,0,0,40" />
             </StackLayout>
 
         </StackLayout>

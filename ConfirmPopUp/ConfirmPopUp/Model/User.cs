@@ -6,7 +6,31 @@ namespace ConfirmPopUp
 {
     public class User
     {
-        string name;
-        string email;
+        string _name;
+        string _email;
+
+        public string Name
+        {
+            set
+            {
+                _name = value;
+            }
+            get
+            {
+                return _name;
+            }
+        }
+
+        public string Email
+        {
+            set
+            {
+                _email = value;
+            }
+            get
+            {
+                return _email;
+            }
+        }
     }
 }

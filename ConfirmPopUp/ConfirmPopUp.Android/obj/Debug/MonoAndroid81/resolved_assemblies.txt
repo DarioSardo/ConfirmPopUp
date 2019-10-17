@@ -4,6 +4,9 @@ C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
+C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\Newtonsoft.Json.dll
+C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\Rg.Plugins.Popup.dll
+C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\Rg.Plugins.Popup.Droid.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\System.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll
@@ -63,4 +66,5 @@ C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.InteropServices.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Extensions.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\System.Reflection.Extensions.dll
+C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\System.Threading.Tasks.dll
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Security.dll

@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ConfirmPopUp.View.HomePage.xaml", "View/HomePage.xaml", typeof(global::ConfirmPopUp.View.HomePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ConfirmPopUp.View.HomePage.xaml", "View/HomePage.xaml", typeof(global::ConfirmPopUp.HomePage))]
 
-namespace ConfirmPopUp.View {
+namespace ConfirmPopUp {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\HomePage.xaml")]
