@@ -11,7 +11,7 @@ namespace ConfirmPopUp
         {
             InitializeComponent();
 
-            MainPage = new PopUpOk();
+            MainPage = new NavigationPage(new ConfirmPopUpPage());
         }
 
         protected override void OnStart()

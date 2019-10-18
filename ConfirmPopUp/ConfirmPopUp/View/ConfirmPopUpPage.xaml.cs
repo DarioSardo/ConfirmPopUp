@@ -15,7 +15,7 @@ namespace ConfirmPopUp
 		public ConfirmPopUpPage ()
 		{
 			InitializeComponent ();
-            BindingContext = new ConfirmPopUpViewModel();
+            BindingContext = new ConfirmPopUpViewModel(this);
 		}
 	}
 }

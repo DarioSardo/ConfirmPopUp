@@ -5,18 +5,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="ConfirmPopUp.PopUpOk"
     CloseWhenBackgroundIsClicked="False">
-    
+
     <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" WidthRequest="300" HeightRequest="340" Margin="5" >
-        <Frame BackgroundColor="#F4F4F4">
+        <Frame BackgroundColor="#F6F6F6">
             <StackLayout Spacing="20" >
-                 <Label Text="Confirmed" TextColor="#818789" HorizontalTextAlignment="Center"
+                <Label Text="{Binding Title}" TextColor="#818789" HorizontalTextAlignment="Center"
                  VerticalTextAlignment="Center" FontSize="16" />
 
-                <Label Text="EMAIL" TextColor="#818789" HorizontalTextAlignment="Center" LineBreakMode="WordWrap"
+                <Label Text="{Binding Body}"  TextColor="#818789" HorizontalTextAlignment="Center" LineBreakMode="WordWrap"
                  VerticalTextAlignment="Center" FontSize="10" />
-
-                <Label Text="EMAIL 1" TextColor="#818789" HorizontalTextAlignment="Center"
-                 VerticalTextAlignment="Center" FontSize="10" LineBreakMode="WordWrap" />
 
                 <Button Text="CLOSE" FontSize="14" WidthRequest="250" TextColor="Black" VerticalOptions="Center"
                            Clicked="OnClose"

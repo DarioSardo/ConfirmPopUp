@@ -118,3 +118,4 @@ C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.iOS\obj\iPh
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.iOS\obj\iPhoneSimulator\Debug\ConfirmPopUp.iOS.csproj.CopyComplete
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.iOS\obj\iPhoneSimulator\Debug\ConfirmPopUp.iOS.exe
 C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.iOS\obj\iPhoneSimulator\Debug\ConfirmPopUp.iOS.pdb
+C:\Users\DARIOSardo\Documents\ConfirmPopUp\ConfirmPopUp\ConfirmPopUp.iOS\bin\iPhoneSimulator\Debug\ConfirmPopUp.dll.mdb

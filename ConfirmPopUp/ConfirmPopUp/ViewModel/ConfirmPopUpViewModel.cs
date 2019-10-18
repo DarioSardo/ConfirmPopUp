@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Rg.Plugins.Popup.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace ConfirmPopUp
 {
     public class ConfirmPopUpViewModel : BaseViewModel
     {
-        public INavigation Navigation { get; set; }
+        Page _currentPage;
         string _title;
         public ICommand AuthenticateCommand { get; set; }
         User _user;
@@ -48,8 +49,9 @@ namespace ConfirmPopUp
             }
         }
 
-        public ConfirmPopUpViewModel()
+        public ConfirmPopUpViewModel(Page currentPage)
         {
+            _currentPage = currentPage;
             _user = new User();
             Title = "Confirm PopUp Example";
             AuthenticateCommand = new Command(async () => await doLoginAsync());
@@ -57,16 +59,16 @@ namespace ConfirmPopUp
 
         private async Task doLoginAsync()
         {
-            var page = new PopUpOk()
+            var page = new PopUpOk(_user)
             {
                 CallbackMethod = ConfirmPopupEndedWithSuccessAsync
             };
-            await Navigation.PushAsync(page);
+            await _currentPage?.Navigation.PushPopupAsync(page);
         }
 
         private void ConfirmPopupEndedWithSuccessAsync()
         {
-            Navigation.PushAsync(new HomePage()).Wait();
+            _currentPage?.Navigation.PushAsync(new HomePage());
         }
     }
 }
