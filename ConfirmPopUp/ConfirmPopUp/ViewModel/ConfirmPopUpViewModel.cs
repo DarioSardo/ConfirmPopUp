@@ -1,7 +1,4 @@
 ﻿using Rg.Plugins.Popup.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -14,6 +11,14 @@ namespace ConfirmPopUp
         string _title;
         public ICommand AuthenticateCommand { get; set; }
         User _user;
+
+        public ConfirmPopUpViewModel(Page currentPage)
+        {
+            _currentPage = currentPage;
+            _user = new User();
+            Title = "Confirm PopUp Example";
+            AuthenticateCommand = new Command(async () => await doLoginAsync());
+        }
 
         public string Title
         {
@@ -34,6 +39,7 @@ namespace ConfirmPopUp
             set
             {
                 _user.Name = value;
+                OnPropertyChanged();
             }
         }
 
@@ -46,15 +52,8 @@ namespace ConfirmPopUp
             set
             {
                 _user.Email = value;
+                OnPropertyChanged();
             }
-        }
-
-        public ConfirmPopUpViewModel(Page currentPage)
-        {
-            _currentPage = currentPage;
-            _user = new User();
-            Title = "Confirm PopUp Example";
-            AuthenticateCommand = new Command(async () => await doLoginAsync());
         }
 
         private async Task doLoginAsync()
@@ -68,7 +67,7 @@ namespace ConfirmPopUp
 
         private void ConfirmPopupEndedWithSuccessAsync()
         {
-            _currentPage?.Navigation.PushAsync(new HomePage());
+            _currentPage?.Navigation.PushAsync(new HomePage(_user));
         }
     }
 }

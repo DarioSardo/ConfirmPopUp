@@ -10,14 +10,14 @@
         <Frame BackgroundColor="#F6F6F6">
             <StackLayout Spacing="20" >
                 <Label Text="{Binding Title}" TextColor="#818789" HorizontalTextAlignment="Center"
-                 VerticalTextAlignment="Center" FontSize="16" />
+                 VerticalTextAlignment="Center" FontSize="20" />
 
                 <Label Text="{Binding Body}"  TextColor="#818789" HorizontalTextAlignment="Center" LineBreakMode="WordWrap"
-                 VerticalTextAlignment="Center" FontSize="10" />
+                 VerticalTextAlignment="Center" FontSize="15" />
 
                 <Button Text="CLOSE" FontSize="14" WidthRequest="250" TextColor="Black" VerticalOptions="Center"
                            Clicked="OnClose"
-                      BorderColor="#e2071c" BorderRadius="25" BackgroundColor="White" BorderWidth="2" HeightRequest="48" Margin="20,0,20,0" />
+                      BorderColor="#e2071c" BorderRadius="25" BackgroundColor="White" BorderWidth="2" HeightRequest="48" Margin="20" />
             </StackLayout>
         </Frame>
     </StackLayout>

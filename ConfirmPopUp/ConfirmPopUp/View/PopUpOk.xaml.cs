@@ -1,7 +1,6 @@
-﻿using Rg.Plugins.Popup.Extensions;
-using Rg.Plugins.Popup.Pages;
+﻿using Rg.Plugins.Popup.Pages;
 using Rg.Plugins.Popup.Services;
-using System.Threading.Tasks;
+using System;
 using Xamarin.Forms.Xaml;
 
 namespace ConfirmPopUp
@@ -42,7 +41,7 @@ namespace ConfirmPopUp
 		{
 			InitializeComponent();
             BindingContext = this;
-            Title = "Well done " + user.Name + "!";
+            Title = String.Format("Well done {0}!", user.Name);
             Body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
         }
 

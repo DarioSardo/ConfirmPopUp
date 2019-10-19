@@ -360,8 +360,7 @@
           "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/netstandard2.0/_._": {}
         }
       },
       "ConfirmPopUp/1.0.0": {
@@ -860,25 +859,24 @@
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
       "Xamarin.Android.Support.v7.CardView >= 27.0.2.1",
-      "Xamarin.Android.Support.v7.MediaRouter >= 27.0.2.1",
-      "Xamarin.Forms >= 3.1.0.697729"
+      "Xamarin.Android.Support.v7.MediaRouter >= 27.0.2.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DARIOSardo\\.nuget\\packages\\": {}
+    "C:\\Users\\Dario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
       "projectName": "ConfirmPopUp.Android",
-      "projectPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
-      "packagesPath": "C:\\Users\\DARIOSardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\obj\\",
+      "projectPath": "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\ConfirmPopUp.Android.csproj",
+      "packagesPath": "C:\\Users\\Dario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\DARIOSardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -891,8 +889,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj": {
-              "projectPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj"
+            "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj": {
+              "projectPath": "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj"
             }
           }
         }
@@ -920,10 +918,6 @@
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
             "version": "[27.0.2.1, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[3.1.0.697729, )"
           }
         }
       }

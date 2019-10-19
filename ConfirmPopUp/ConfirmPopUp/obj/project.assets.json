@@ -425,23 +425,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DARIOSardo\\.nuget\\packages\\": {},
+    "C:\\Users\\Dario\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj",
+      "projectUniqueName": "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj",
       "projectName": "ConfirmPopUp",
-      "projectPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj",
-      "packagesPath": "C:\\Users\\DARIOSardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DARIOSardo\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\obj\\",
+      "projectPath": "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp.csproj",
+      "packagesPath": "C:\\Users\\Dario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dario\\Documents\\ConfirmPopUp\\ConfirmPopUp\\ConfirmPopUp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DARIOSardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
