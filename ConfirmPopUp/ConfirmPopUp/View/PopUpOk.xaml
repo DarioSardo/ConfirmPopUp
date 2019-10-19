@@ -17,7 +17,7 @@
 
                 <Button Text="CLOSE" FontSize="14" WidthRequest="250" TextColor="Black" VerticalOptions="Center"
                            Clicked="OnClose"
-                      BorderColor="#e2071c" BorderRadius="25" BackgroundColor="White" BorderWidth="2" HeightRequest="48" Margin="20" />
+                      BorderColor="#243dff" BorderRadius="25" BackgroundColor="White" BorderWidth="2" HeightRequest="48" Margin="20" />
             </StackLayout>
         </Frame>
     </StackLayout>
